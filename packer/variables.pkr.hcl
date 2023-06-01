@@ -1,3 +1,7 @@
+variable "ami_name" {
+  default = "Jenkins-AMI"
+}
+
 variable "source_ami" {
   default = "ami-026ebd4cfe2c043b2"
 }
